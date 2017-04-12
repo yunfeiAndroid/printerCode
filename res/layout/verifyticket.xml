@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="356dp" 
+    android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/dialog_order_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:textSize="18px"
+        android:textColor="#666666"
+        android:text="订单号：1002000000000046"/>
+    
+    <LinearLayout 
+        android:id="@+id/dialog_rlt"
+        android:layout_width="match_parent"
+        android:layout_marginRight="42dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="236dp"
+        android:orientation="horizontal">
+        
+	
+	<LinearLayout
+	    android:id="@+id/dialog_rlt_inner"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_vertical"
+	    android:layout_marginLeft="12dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:id="@+id/dialog_tv1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="28px"
+	        android:textColor="#333333"
+	        android:text="演出名称>>>可换行       演出名称>>>可换行       演出名称>>>可换行"
+	        android:lineSpacingExtra="12dp"
+	        android:lines="2"/>
+	    
+	    <LinearLayout 
+	        android:layout_marginTop="30dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="120dp"
+	        android:orientation="vertical">
+	        
+	        <TextView
+	            android:id="@+id/dialog_tv2"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:drawableLeft="@drawable/time"
+	            android:drawablePadding="14dp"
+	            android:textColor="#999999"
+	            android:gravity="center_vertical"
+	            android:text="2016-08-20 19:30  星期二"
+	            android:textSize="18sp" />
+
+	        <TextView 
+	            android:id="@+id/dialog_tv3"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:layout_width="match_parent"
+	            android:drawableLeft="@drawable/position"
+	            android:textSize="18sp"
+	            android:drawablePadding="14dp"
+	            android:textColor="#999999"
+	            android:gravity="center_vertical"
+	            android:lines="1"
+	            android:text="北京万达广场"/>
+	        <TextView 
+	            android:id="@+id/dialog_tv4"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:layout_width="match_parent"
+	            android:drawableLeft="@drawable/seats"
+	            android:textSize="18sp"
+	            android:drawablePadding="14dp"
+	            android:textColor="#999999"
+	            android:gravity="center_vertical"
+	            android:text="4张"/>
+	        <TextView 
+	            android:id="@+id/dialog_tv5"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:layout_width="match_parent"
+	            android:drawableLeft="@drawable/counttickets"
+	            android:textSize="18sp"
+	            android:drawablePadding="14dp"
+	            android:textColor="#999999"
+	            android:gravity="center_vertical"
+	            android:text="3排12/13/14号"/>
+	    </LinearLayout>
+	</LinearLayout>
+    </LinearLayout>
+    
+    	<View 
+        android:id="@+id/dialog_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="40dp"
+        android:padding="12dp"
+        android:background="#d3d3d5"
+        />
+   
+    
+
+</LinearLayout>
